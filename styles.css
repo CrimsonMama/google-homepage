@@ -7,6 +7,9 @@ a {
 a.indent {
     padding-left: 2em;
 }
+.indent2 {
+    padding-left: 14%;
+}
 .tabs {
     position: relative;
     margin-top: 5%;
@@ -14,7 +17,7 @@ a.indent {
 }
 .google {
     position: relative;
-    margin-top: 20%;
+    margin-top: 15%;
 }
 .logo {
     display:block; 
@@ -28,7 +31,7 @@ a.indent {
 }
 .dots {
     display: block;
-    margin-top: -4%;
+    margin-top: -7%;
     margin-left: 84%;
 }
 .search {
@@ -43,4 +46,34 @@ a.indent {
     outline: none;
     font-size: 25px;
     background-color: rgb(229, 229, 245);
+}
+.btn1 {
+    position: relative;
+    left: 33%;
+    bottom: 30%;
+    margin-top: 20px;
+    height: 30px;
+    width: 15%;
+    background-color: rgb(229, 229, 245);
+    font-size: 15px;
+    border: none;
+    color: rgb(60, 60, 63);
+}
+.btn2 {
+    position: relative;
+    left: 36%;
+    margin-top: 20px;
+    height: 30px;
+    width: 15%;
+    background-color: rgb(229, 229, 245);
+    font-size: 15px;
+    border: none;
+    color: rgb(60, 60, 63);
+}
+.tail {
+    margin-left: 14%;
+}
+footer {
+    background-color: rgb(229, 229, 245);
+    padding: 8px;
 }
