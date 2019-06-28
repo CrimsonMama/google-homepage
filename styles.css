@@ -7,3 +7,40 @@ a {
 a.indent {
     padding-left: 2em;
 }
+.tabs {
+    position: relative;
+    margin-top: 5%;
+    margin-left: 70%;
+}
+.google {
+    position: relative;
+    margin-top: 20%;
+}
+.logo {
+    display:block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+.initial {
+    display: block;
+    margin-top: -6%;
+    margin-left: 90%;
+}
+.dots {
+    display: block;
+    margin-top: -4%;
+    margin-left: 84%;
+}
+.search {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    width: 60%;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    font-size: 25px;
+    background-color: rgb(229, 229, 245);
+}
