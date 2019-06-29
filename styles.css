@@ -3,13 +3,22 @@ body {
 }
 a {
     text-decoration: none;
-}
-a.indent {
     padding-left: 2em;
 }
-.indent2 {
-    padding-left: 14%;
-}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+li {
+      display: inline;
+      padding: 1%;
+  }
+.login {
+      background-color: rgb(167, 167, 231);
+      font-size: 16px;
+  }
 .tabs {
     position: relative;
     margin-top: 5%;
@@ -24,16 +33,7 @@ a.indent {
     margin-left: auto; 
     margin-right: auto;
 }
-.initial {
-    display: block;
-    margin-top: -6%;
-    margin-left: 90%;
-}
-.dots {
-    display: block;
-    margin-top: -7%;
-    margin-left: 84%;
-}
+
 .search {
     display: block;
     margin-left: auto;
@@ -72,6 +72,9 @@ a.indent {
 }
 .tail {
     margin-left: 14%;
+}
+.indent2 {
+    padding-left: 14%;
 }
 footer {
     background-color: rgb(229, 229, 245);
